@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "lib": ["dom", "esnext"],
+    "lib": [
+      "dom",
+      "esnext"
+    ],
     "jsx": "react-jsx",
     "jsxImportSource": "theme-ui",
     "module": "esnext",
@@ -15,6 +18,7 @@
     "./src/**/*",
     "./gatsby-node.ts",
     "./gatsby-config.ts",
-    "./plugins/**/*"
+    "./plugins/**/*",
+    "./gatsby-browser.tsx"
   ]
 }

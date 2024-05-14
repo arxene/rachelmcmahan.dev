@@ -33,12 +33,7 @@ const config: GatsbyConfig = {
             slug: `/projects`,
           },
         ],
-        externalLinks: [
-          {
-            name: `Portfolio Page`,
-            url: `https://rachelmcmahan.dev`,
-          },
-        ],
+        externalLinks: [],
       },
     },
     {

@@ -26,7 +26,7 @@ export default function TechStudy() {
           <td>*14-75</td>
         </tr>
         <tr>
-          <td>MIDDLE EASTERN/NORTH AFRICAN</td>
+          <td>MIDDLE EASTERN / NORTH AFRICAN</td>
           <td>
             Algeria, Cyprus, Egypt, Iran, Iraq, Israel, Kuwait, Lebanon, Libya, Morocco, Oman, Palestine, Qatar, Saudi
             Arabia, Syria, Tunisia, Turkey, UAE, Yemen

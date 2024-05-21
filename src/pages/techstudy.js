@@ -23,7 +23,7 @@ export default function TechStudy() {
         <tr>
           <td>SOUTH ASIAN</td>
           <td>India, Bangladesh, Pakistan, Nepal, Sri Lanka, Maldives</td>
-          <td>14-75</td>
+          <td>*14-75</td>
         </tr>
         <tr>
           <td>MIDDLE EASTERN/NORTH AFRICAN</td>
@@ -32,25 +32,39 @@ export default function TechStudy() {
             Arabia, Syria, Tunisia, Turkey, UAE, Yemen
           </td>
           <td>
-            14-17 & 40-75
+            *14-17
             <br />
-            18-139 female only
+            *40-75
+            <br />
+            *18-139 female only
           </td>
         </tr>
         <tr>
           <td>EAST ASIAN</td>
           <td>China, Hong Kong, Macau, Taiwan, Japan, Mongolia, Korea</td>
-          <td>14-17 & 56-75</td>
+          <td>
+            *14-17
+            <br />
+            *56-75
+          </td>
         </tr>
         <tr>
           <td>SOUTHEAST ASIAN</td>
           <td>Cambodia, Indonesia, Laos, Malaysia, Philippines, Singapore, Thailand, Vietnam</td>
-          <td>14-17 & 56-75</td>
+          <td>
+            *14-17
+            <br />
+            *56-75
+          </td>
         </tr>
         <tr>
           <td>ALL OTHER ETHNICITIES</td>
           <td></td>
-          <td>14-17 & 70-75</td>
+          <td>
+            *14-17
+            <br />
+            *70-75
+          </td>
         </tr>
       </table>
       <p>

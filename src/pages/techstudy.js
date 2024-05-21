@@ -6,9 +6,9 @@ import "./techstudy.css";
 
 export default function TechStudy() {
   return (
-    <div style={{ maxWidth: "90%", marginLeft: "auto", marginRight: "auto", marginTop: "3em", marginBottom: "3em" }}>
+    <div style={{ maxWidth: "95%", marginLeft: "auto", marginRight: "auto", marginTop: "3em", marginBottom: "3em" }}>
       <h1>$225 LA Technology Study</h1>
-      <img src={vrHeadset} alt="VR headset" style={{ maxWidth: "600px" }}></img>
+      <img src={vrHeadset} alt="VR headset" style={{ maxWidth: "100%" }}></img>
       <p>
         This 2.5 hour tech study is a fun, easy way to earn $225 in your free time. You will test a VR (virtual reality)
         headset by making different facial expressions and saying phrases. The location is near Glendale.
@@ -60,7 +60,7 @@ export default function TechStudy() {
       <img
         src={techSurveyReferrerExample}
         alt="Tech study referrer"
-        style={{ border: "1px solid black", borderRadius: 15, margin: "10px 0px" }}
+        style={{ border: "1px solid black", borderRadius: 15, margin: "10px 0px", maxWidth: "100%" }}
       ></img>
       <div style={{ marginBottom: 20 }}>
         Referred by name: <b>Rachel McMahan</b>

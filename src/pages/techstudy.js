@@ -84,6 +84,7 @@ export default function TechStudy() {
       {/* <img src={CopyIcon} alt="Copy button" /> */}
       <a
         href="https://www.surveymonkey.com/r/SamaraLARefer"
+        target="_blank"
         style={{ fontWeight: "bold", fontSize: 24, color: "blue" }}
       >
         Sign up here for the $225 LA Tech Study

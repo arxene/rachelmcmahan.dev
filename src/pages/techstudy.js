@@ -36,7 +36,7 @@ export default function TechStudy() {
             <br />
             *40-75
             <br />
-            *18-139 female only
+            *18-39 female only
           </td>
         </tr>
         <tr>

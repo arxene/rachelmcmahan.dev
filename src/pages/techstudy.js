@@ -5,8 +5,9 @@ import { Script } from "gatsby";
 import techSurveyReferrerExample from "./tech-survey-referrer-example.jpg";
 import vrHeadset from "./vr-headset.jpg";
 import "./techstudy.css";
+//import CopyIcon from "./icons8-copy-24.png";
 
-export default function TechStudy() {
+export function Head() {
   let googleAnalyticsScripts = "";
   useEffect(() => {
     googleAnalyticsScripts = document.location.hostname.endsWith("rachelmcmahan.dev") ? (
@@ -20,6 +21,10 @@ export default function TechStudy() {
     );
   }, []);
 
+  return googleAnalyticsScripts;
+}
+
+export default function TechStudy() {
   return (
     <div style={{ maxWidth: "95%", marginLeft: "auto", marginRight: "auto", marginTop: "3em", marginBottom: "3em" }}>
       <h1>$225 LA Technology Study</h1>
@@ -105,8 +110,6 @@ export default function TechStudy() {
       >
         Sign up here for the $225 LA Tech Study
       </a>
-
-      {googleAnalyticsScripts}
     </div>
   );
 }

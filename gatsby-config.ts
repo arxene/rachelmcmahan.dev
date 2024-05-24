@@ -18,6 +18,9 @@ const config: GatsbyConfig = {
     author: `@arxene`,
   },
   trailingSlash: `always`,
+  flags: {
+    DEV_SSR: true,
+  },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,

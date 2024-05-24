@@ -10,16 +10,15 @@ import "./techstudy.css";
 export function Head() {
   let googleAnalyticsScripts = "";
   useEffect(() => {
-    googleAnalyticsScripts =
-      document.location.hostname === "rachelmcmahan.dev" ? (
-        <>
-          <Script src="https://www.googletagmanager.com/gtag/js?id=G-89HJGQVG7B" />
-          <Script>{`window.dataLayer = (window.dataLayer || []); function gtag(){window.dataLayer.push(arguments)}
+    googleAnalyticsScripts = document.location.hostname.endsWith("rachelmcmahan.dev") ? (
+      <>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-89HJGQVG7B" />
+        <Script>{`window.dataLayer = (window.dataLayer || []); function gtag(){window.dataLayer.push(arguments)}
         gtag('js', new Date()); gtag('config', 'G-89HJGQVG7B');`}</Script>
-        </>
-      ) : (
-        ""
-      );
+      </>
+    ) : (
+      ""
+    );
   }, []);
 
   return googleAnalyticsScripts;

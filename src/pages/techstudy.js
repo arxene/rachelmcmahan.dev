@@ -1,8 +1,21 @@
 import React from "react";
+import { Script } from "gatsby";
+
 import techSurveyReferrerExample from "./tech-survey-referrer-example.jpg";
 import vrHeadset from "./vr-headset.jpg";
 import "./techstudy.css";
 //import CopyIcon from "./icons8-copy-24.png";
+
+export function Head() {
+  return (
+    <>
+      {/* <!-- Google tag (gtag.js) --> */}
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-89HJGQVG7B" />
+      <Script id="googleTagManagerScript2">{`window.dataLayer = (window.dataLayer || []); function gtag(){window.dataLayer.push(arguments)}
+        gtag('js', new Date()); gtag('config', 'G-89HJGQVG7B');`}</Script>
+    </>
+  );
+}
 
 export default function TechStudy() {
   return (
@@ -85,6 +98,7 @@ export default function TechStudy() {
       <a
         href="https://www.surveymonkey.com/r/SamaraLARefer"
         target="_blank"
+        rel="noreferrer"
         style={{ fontWeight: "bold", fontSize: 24, color: "blue" }}
       >
         Sign up here for the $225 LA Tech Study

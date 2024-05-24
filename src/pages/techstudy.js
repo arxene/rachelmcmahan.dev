@@ -7,17 +7,14 @@ import "./techstudy.css";
 //import CopyIcon from "./icons8-copy-24.png";
 
 export function Head() {
-  const googleAnalyticsScripts =
-    document.location.hostname === "rachelmcmahan.dev" ? (
-      <>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-89HJGQVG7B" />
-        <Script id="googleTagManagerScript2">{`window.dataLayer = (window.dataLayer || []); function gtag(){window.dataLayer.push(arguments)}
+  return (
+    <>
+      {/* <!-- Google tag (gtag.js) --> */}
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-89HJGQVG7B" />
+      <Script id="googleTagManagerScript2">{`window.dataLayer = (window.dataLayer || []); function gtag(){window.dataLayer.push(arguments)}
         gtag('js', new Date()); gtag('config', 'G-89HJGQVG7B');`}</Script>
-      </>
-    ) : (
-      ""
-    );
-  return googleAnalyticsScripts;
+    </>
+  );
 }
 
 export default function TechStudy() {

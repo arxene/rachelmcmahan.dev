@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect } from "react";
 import { Script } from "gatsby";
 
 import techSurveyReferrerExample from "./tech-survey-referrer-example.jpg";
@@ -8,20 +7,16 @@ import "./techstudy.css";
 //import CopyIcon from "./icons8-copy-24.png";
 
 export function Head() {
-  let googleAnalyticsScripts = "";
-  useEffect(() => {
-    googleAnalyticsScripts =
-      document.location.hostname === "rachelmcmahan.dev" ? (
-        <>
-          <Script src="https://www.googletagmanager.com/gtag/js?id=G-89HJGQVG7B" />
-          <Script>{`window.dataLayer = (window.dataLayer || []); function gtag(){window.dataLayer.push(arguments)}
+  const googleAnalyticsScripts =
+    document.location.hostname === "rachelmcmahan.dev" ? (
+      <>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-89HJGQVG7B" />
+        <Script id="googleTagManagerScript2">{`window.dataLayer = (window.dataLayer || []); function gtag(){window.dataLayer.push(arguments)}
         gtag('js', new Date()); gtag('config', 'G-89HJGQVG7B');`}</Script>
-        </>
-      ) : (
-        ""
-      );
-  }, []);
-
+      </>
+    ) : (
+      ""
+    );
   return googleAnalyticsScripts;
 }
 

@@ -23,10 +23,10 @@ export default function TechStudy() {
       <h1>$225 LA Technology Study</h1>
       <img src={vrHeadset} alt="VR headset" style={{ maxWidth: "100%" }}></img>
       <p>
-        This 2.5 hour tech study is a fun, easy way to earn $225 in your free time. You will test a VR (virtual reality)
+        This 2.5 hour tech study is a fun, easy way to earn $225 in your free time! You will test a VR (virtual reality)
         headset by making different facial expressions and saying phrases. The location is near Glendale.
       </p>
-      <p>We need people whose ethnicity is one of these:</p>
+      <p>We're looking to have a variety of different people try these Vr headsets:</p>
       <table>
         <tr>
           <th>Ethnicity</th>
